@@ -1,4 +1,4 @@
-# Installs Dir
+# Installs dir
 
 Download the following from http://developers.redhat.com
 
