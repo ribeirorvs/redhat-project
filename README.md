@@ -27,6 +27,7 @@ The following software is required to run this application:
 See the application version and the features/products included.
 
 v2.0 - Web version and EAP 7.1
+
 v1.0 - Basic application without web version
 
  
