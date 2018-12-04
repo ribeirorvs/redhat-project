@@ -2,7 +2,7 @@
 
 ## About this repo
 
-This repo is used to show how install the Red Hat Project in a EAP 7.1 
+This repo is used to show how install the [Red Hat Project](https://github.com/ribeirorvs/redhat-project-repo) in a EAP 7.1 
 
 ## Softwares
 
