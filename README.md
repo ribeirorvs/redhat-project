@@ -16,9 +16,9 @@ The following software is required to run this application:
 
 2. Add the softwares to *installs* directory
 
-3. Run *init.sh* (Tested only in Linux)
+3. Run *init.sh* (Only in Linux)
 
-4. Stat the application by running *standalone.sh* in the */target/EAP-7.1/bin* directory
+4. Start the application by running *standalone.sh* in the */target/EAP-7.1/bin* directory
 
 5. To open the application go to [http://localhost:8080/todo-list-2.0](http://localhost:8080/todo-list-2.0)
 
