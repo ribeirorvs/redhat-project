@@ -1,0 +1,17 @@
+OpenJDK 64-Bit Server VM (25.201-b09) for linux-amd64 JRE (1.8.0_201-b09), built on Feb  6 2019 17:18:38 by "mockbuild" with gcc 8.2.1 20181215 (Red Hat 8.2.1-6)
+Memory: 4k page, physical 7671488k(876832k free), swap 7733244k(7717884k free)
+CommandLine flags: -XX:CompressedClassSpaceSize=260046848 -XX:GCLogFileSize=3145728 -XX:InitialHeapSize=1366294528 -XX:MaxHeapSize=1366294528 -XX:MaxMetaspaceSize=268435456 -XX:MetaspaceSize=100663296 -XX:NumberOfGCLogFiles=5 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:-TraceClassUnloading -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseGCLogFileRotation -XX:+UseParallelGC 
+2019-04-03T20:03:45.674-0300: 1,565: [GC (Allocation Failure) [PSYoungGen: 334336K->29502K(389632K)] 334336K->29518K(1280000K), 0,0225123 secs] [Times: user=0,05 sys=0,01, real=0,02 secs] 
+2019-04-03T20:03:48.055-0300: 3,946: [GC (Allocation Failure) [PSYoungGen: 363838K->55268K(389632K)] 363854K->64812K(1280000K), 0,0553048 secs] [Times: user=0,10 sys=0,01, real=0,05 secs] 
+2019-04-03T20:28:05.573-0300: 1461,464: [GC (Allocation Failure) [PSYoungGen: 389604K->43209K(389632K)] 399148K->52769K(1280000K), 0,0603826 secs] [Times: user=0,17 sys=0,01, real=0,06 secs] 
+2019-04-03T21:18:27.429-0300: 4483,320: [GC (Allocation Failure) [PSYoungGen: 377545K->27267K(389632K)] 387105K->36835K(1280000K), 0,0525278 secs] [Times: user=0,18 sys=0,00, real=0,05 secs] 
+2019-04-03T22:09:24.198-0300: 7540,088: [GC (Allocation Failure) [PSYoungGen: 361603K->27201K(353792K)] 371171K->36777K(1244160K), 0,0603341 secs] [Times: user=0,17 sys=0,00, real=0,06 secs] 
+Heap
+ PSYoungGen      total 353792K, used 148535K [0x00000000e4d80000, 0x0000000100000000, 0x0000000100000000)
+  eden space 326144K, 37% used [0x00000000e4d80000,0x00000000ec3fd850,0x00000000f8c00000)
+  from space 27648K, 98% used [0x00000000f9400000,0x00000000fae90728,0x00000000faf00000)
+  to   space 66048K, 0% used [0x00000000fbf80000,0x00000000fbf80000,0x0000000100000000)
+ ParOldGen       total 890368K, used 9575K [0x00000000ae800000, 0x00000000e4d80000, 0x00000000e4d80000)
+  object space 890368K, 1% used [0x00000000ae800000,0x00000000af159eb8,0x00000000e4d80000)
+ Metaspace       used 84678K, capacity 93838K, committed 93952K, reserved 1130496K
+  class space    used 10626K, capacity 13491K, committed 13568K, reserved 1048576K

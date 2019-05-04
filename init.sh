@@ -72,12 +72,12 @@ echo
 echo "  - cloning the project's Git repo from: $PROJECT_GIT_REPO"
 echo
 
-rm -rf ./target/tmp && git clone $PROJECT_GIT_REPO.git ./target/tmp
+rm -rf ./target/tmp && git clone -b version-2.3 $PROJECT_GIT_REPO.git ./target/tmp
 
 echo "  - deploying the application..."
 echo
 
-cp ./target/tmp/todo-list.war $SERVER_DIR
+cp ./target/tmp/todo-list/target/todo-list.war $SERVER_DIR
 
 echo "  - clean up..."
 echo
@@ -87,6 +87,9 @@ rm -rf ./target/tmp
 echo "You can now start the application with $SERVER_BIN/standalone.sh"
 echo
 echo "Look at http://localhost:8080/todo-list"
+echo
+echo "JBoss user:	eapAdmin"
+echo "      password:	RedHat#1"
 echo
 
 echo "Setup Complete."
