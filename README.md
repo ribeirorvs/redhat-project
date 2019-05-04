@@ -8,7 +8,7 @@ This repo is used to show how install the [Red Hat Project](https://github.com/r
 
 The following software is required to run this application:
 
-- [Red Hat EAP 7.1 installer](https://access.redhat.com/jbossnetwork/restricted/softwareDownload.html?softwareId=55301)
+- [Red Hat EAP 7.1 installer](https://access.redhat.com/jbossnetwork/restricted/softwareDownload.html?softwareId=55291&product=appplatform)
 
 ## Install on your machine
 
