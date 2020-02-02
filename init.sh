@@ -2,16 +2,16 @@
 
 AUTHORS="Rodrigo Vitor Ribeiro"
 PROJECT="Red Hat Project - To Do list"
-PRODUCTS="Red Hat EAP 7.1"
+PRODUCTS="Red Hat EAP 7.3"
 TARGET=./target
-JBOSS_HOME=$TARGET/EAP-7.1.0
+JBOSS_HOME=$TARGET/EAP-7.3.0
 SERVER_DIR=$JBOSS_HOME/standalone/deployments
 SERVER_CONF=$JBOSS_HOME/standalone/configuration/
 SERVER_BIN=$JBOSS_HOME/bin
 SRC_DIR=./installs
 SUPPORT_DIR=./support
-EAP=jboss-eap-7.1.0-installer.jar
-VERSION=7.1
+EAP=jboss-eap-7.3.0.Beta-installer.jar
+VERSION=7.3
 PROJECT_GIT_REPO=https://github.com/ribeirorvs/redhat-project-repo
 
 # wipe screen.
@@ -72,11 +72,12 @@ echo
 echo "  - cloning the project's Git repo from: $PROJECT_GIT_REPO"
 echo
 
-rm -rf ./target/tmp && git clone -b version-2.3 $PROJECT_GIT_REPO.git ./target/tmp
+rm -rf ./target/tmp && git clone -b version-2.5 $PROJECT_GIT_REPO.git ./target/tmp
 
 echo "  - deploying the application..."
 echo
 
+mvn clean install -f ./target/tmp/todo-list
 cp ./target/tmp/todo-list/target/todo-list.war $SERVER_DIR
 
 echo "  - clean up..."
